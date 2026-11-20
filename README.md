@@ -3,6 +3,7 @@
 2423029
 Zoe Efstathiou
 
+![gif](https://github.com/princessbleach/Ai-Task/blob/main/characterai.gif?raw=true)
 
 #### Creation
 
@@ -20,6 +21,12 @@ I used behaviour trees to control NPC behaviour. Scripts used are BTNode and BTS
 
 
 I also added very simple sprite animations to help differentiate between NPCs. 
+
+
+#### Telemetry
+
+Within NPCBrain I've also implemented performance telemetry. It tracks the NPCs lastevaluationtime, averageevaluationtime, evaluationcount, currentbehaviour. I use C#s stopwatch class to help measure these. This can be seen in the inspector of the NPC. This helps developers monitor which state the NPC is in. Overall telemetry is useful in this case to monitor whether different behaviours have different computational costs and whether the system remains efficient as the NPC population increases.
+
 
 
 
