@@ -22,3 +22,9 @@ I used behaviour trees to control NPC behaviour. Scripts used are BTNode and BTS
 I also added very simple sprite animations to help differentiate between NPCs. 
 
 
+
+#### AI Declaration
+
+AI tools were used to assist with troubleshooting, understanding programming concepts, and developing the Unity implementation. AI assistance was used for guidance on C# scripting, Behaviour Tree structure, debugging and project documentation. The implementation was tested and adapted within Unity by myself.
+
+
